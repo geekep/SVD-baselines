@@ -14,6 +14,6 @@
 
 #BSUB -m "user-g4a60"         
 
-#BSUB  -gpu  num=8         
+#BSUB  -gpu  num=4
 
 python videoprocess/deepfeatures_extraction.py --dataname svd
