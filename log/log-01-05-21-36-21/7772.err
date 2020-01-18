@@ -1,0 +1,104 @@
+[2020-01-05 21:36:21,775][INFO]: param: approach: itq
+[2020-01-05 21:36:21,776][INFO]: param: configfile: param
+[2020-01-05 21:36:21,776][INFO]: param: configpath: ./config
+[2020-01-05 21:36:21,776][INFO]: param: dataname: svd
+[2020-01-05 21:36:21,776][INFO]: param: datapath: ./data/svd
+[2020-01-05 21:36:21,776][INFO]: param: debug: False
+[2020-01-05 21:36:21,776][INFO]: param: device: cuda
+[2020-01-05 21:36:21,776][INFO]: param: en_local_log: True
+[2020-01-05 21:36:21,776][INFO]: param: featurepath: ./data/svd/features
+[2020-01-05 21:36:21,776][INFO]: param: fps: 1
+[2020-01-05 21:36:21,776][INFO]: param: framepath: ./data/svd/frames
+[2020-01-05 21:36:21,776][INFO]: param: infopath: ./data/svd/infos
+[2020-01-05 21:36:21,776][INFO]: param: logdir: /home/y182202028/Public/SVD-baselines-master/log/log-01-05-21-36-21
+[2020-01-05 21:36:21,776][INFO]: param: metadatapath: ./data/svd/metadata
+[2020-01-05 21:36:21,776][INFO]: param: num_procs: 4
+[2020-01-05 21:36:21,776][INFO]: param: output_path: log
+[2020-01-05 21:36:21,776][INFO]: param: output_period: 10000
+[2020-01-05 21:36:21,777][INFO]: param: path: .
+[2020-01-05 21:36:21,777][INFO]: param: projpath: .
+[2020-01-05 21:36:21,777][INFO]: param: seed: 0
+[2020-01-05 21:36:21,777][INFO]: param: timestamp: 01-05-21-36-21
+[2020-01-05 21:36:21,777][INFO]: param: verbose: True
+[2020-01-05 21:36:21,777][INFO]: param: videopath: ./data/svd/videos
+[2020-01-05 21:36:21,777][INFO]: param: bit: 16
+[2020-01-05 21:36:21,777][INFO]: param: num_key_frames: 50000
+[2020-01-05 21:36:21,777][INFO]: param: num_centers: 300
+[2020-01-05 21:36:21,777][INFO]: ---------------------------------load param done---------------------------------
+[2020-01-05 21:36:25,390][INFO]: #videos: 562013
+[2020-01-05 22:02:55,384][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6630652821148536077.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 22:06:35,298][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6633527660158913800.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 22:18:11,015][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6704138490243845388.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 22:19:55,730][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6635880244194577671.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 22:34:34,773][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6704566616954309900.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 23:15:01,599][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6628834134775041293.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 23:16:52,301][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6635880249835916557.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 23:31:35,118][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6634060718792510723.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-05 23:38:14,294][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6704138429325692164.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 00:08:16,089][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6634066907999767822.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 00:17:51,898][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6634275783420415245.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 00:25:33,011][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6632926144809143555.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 00:25:59,110][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6634348291851029767.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 00:31:55,697][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6626398274163051780.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 01:05:36,734][INFO]: Exception: Unable to open file (unable to open file: name = './data/svd/frames/6634095370047589639.mp4/info.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2020-01-06 01:08:03,538][INFO]: #processing videos: 561998
+[2020-01-06 01:08:03,568][INFO]: load image paths done. #video: 561998
+[2020-01-06 01:08:03,568][INFO]: create data loader done
+[2020-01-06 01:08:12,442][INFO]: create cnn-model done
+[2020-01-06 01:08:19,334][INFO]: CNT:      0/561998, Video: 6634076291123383559.mp4, Next Video: 6703999651504278795.mp4
+[2020-01-06 01:15:57,531][INFO]: CNT:  10000/561998, Video: 6636175506054057220.mp4, Next Video: 6704238643340528904.mp4
+[2020-01-06 01:23:46,329][INFO]: CNT:  20000/561998, Video: 6704238098865245452.mp4, Next Video: 6636319487081581831.mp4
+[2020-01-06 01:31:32,219][INFO]: CNT:  30000/561998, Video: 6635049979805175054.mp4, Next Video: 6635201095066979598.mp4
+[2020-01-06 01:39:26,970][INFO]: CNT:  40000/561998, Video: 6575819098289081608.mp4, Next Video: 6635150874396069124.mp4
+[2020-01-06 01:49:47,327][INFO]: CNT:  50000/561998, Video: 6641378123575201031.mp4, Next Video: 6636716654225001742.mp4
+[2020-01-06 01:57:37,304][INFO]: CNT:  60000/561998, Video: 6633833856178851076.mp4, Next Video: 6704244621448334603.mp4
+[2020-01-06 02:05:28,279][INFO]: CNT:  70000/561998, Video: 6704148523413196040.mp4, Next Video: 6634088699342621966.mp4
+[2020-01-06 02:13:39,985][INFO]: CNT:  80000/561998, Video: 6634791742933568775.mp4, Next Video: 6634825330320215300.mp4
+[2020-01-06 02:21:43,320][INFO]: CNT:  90000/561998, Video: 6634691134285155597.mp4, Next Video: 6635385615628111112.mp4
+[2020-01-06 02:30:03,106][INFO]: CNT: 100000/561998, Video: 6636290246130535694.mp4, Next Video: 6704567489130548484.mp4
+[2020-01-06 02:38:13,239][INFO]: CNT: 110000/561998, Video: 6635071134809197828.mp4, Next Video: 6636542232692264199.mp4
+[2020-01-06 02:46:47,050][INFO]: CNT: 120000/561998, Video: 6636634498853244164.mp4, Next Video: 6704569230047628551.mp4
+[2020-01-06 02:55:30,818][INFO]: CNT: 130000/561998, Video: 6626637733152427271.mp4, Next Video: 6635367602556243214.mp4
+[2020-01-06 03:03:54,509][INFO]: CNT: 140000/561998, Video: 6638140137039465732.mp4, Next Video: 6704011530960211211.mp4
+[2020-01-06 03:12:45,727][INFO]: CNT: 150000/561998, Video: 6704135307136208140.mp4, Next Video: 6704237051908295940.mp4
+[2020-01-06 03:24:56,994][INFO]: CNT: 160000/561998, Video: 6633899367151439107.mp4, Next Video: 6704243173536959752.mp4
+[2020-01-06 03:33:44,932][INFO]: CNT: 170000/561998, Video: 6636736737479494916.mp4, Next Video: 6704015024173616388.mp4
+[2020-01-06 03:42:15,724][INFO]: CNT: 180000/561998, Video: 6635931290954632461.mp4, Next Video: 6636268634312281351.mp4
+[2020-01-06 03:50:42,104][INFO]: CNT: 190000/561998, Video: 6704157049279778061.mp4, Next Video: 6635911251467701508.mp4
+[2020-01-06 03:59:37,291][INFO]: CNT: 200000/561998, Video: 6704236438646492427.mp4, Next Video: 6635036055290514701.mp4
+[2020-01-06 04:08:24,292][INFO]: CNT: 210000/561998, Video: 6704154058296462605.mp4, Next Video: 6636740286162668804.mp4
+[2020-01-06 04:17:14,632][INFO]: CNT: 220000/561998, Video: 6636632350094527752.mp4, Next Video: 6634391139501739267.mp4
+[2020-01-06 04:25:59,413][INFO]: CNT: 230000/561998, Video: 6704239082899295492.mp4, Next Video: 6704244772372040972.mp4
+[2020-01-06 04:34:52,124][INFO]: CNT: 240000/561998, Video: 6636983976886013188.mp4, Next Video: 6704241834962570510.mp4
+[2020-01-06 04:43:40,525][INFO]: CNT: 250000/561998, Video: 6634361689502387464.mp4, Next Video: 6704153911005105419.mp4
+[2020-01-06 04:52:36,610][INFO]: CNT: 260000/561998, Video: 6635115250809048327.mp4, Next Video: 6704241099768220940.mp4
+[2020-01-06 05:01:55,393][INFO]: CNT: 270000/561998, Video: 6635873293352045832.mp4, Next Video: 6635852729220599048.mp4
+[2020-01-06 05:12:41,072][INFO]: CNT: 280000/561998, Video: 6635531022513474820.mp4, Next Video: 6636206621422783748.mp4
+[2020-01-06 05:29:49,689][INFO]: CNT: 290000/561998, Video: 6704145520216083726.mp4, Next Video: 6635516670137863432.mp4
+[2020-01-06 05:38:54,817][INFO]: CNT: 300000/561998, Video: 6704238623736335627.mp4, Next Video: 6635401856673647885.mp4
+[2020-01-06 05:47:58,407][INFO]: CNT: 310000/561998, Video: 6635497525275004168.mp4, Next Video: 6636548515407334660.mp4
+[2020-01-06 05:56:52,801][INFO]: CNT: 320000/561998, Video: 6704139840897862924.mp4, Next Video: 6704568538348244232.mp4
+[2020-01-06 06:05:50,230][INFO]: CNT: 330000/561998, Video: 6704132487720733955.mp4, Next Video: 6626240712176307469.mp4
+[2020-01-06 06:15:15,945][INFO]: CNT: 340000/561998, Video: 6634965768368819469.mp4, Next Video: 6704153254424481038.mp4
+[2020-01-06 06:24:41,361][INFO]: CNT: 350000/561998, Video: 6635482749304048899.mp4, Next Video: 6634391728742731015.mp4
+[2020-01-06 06:33:40,764][INFO]: CNT: 360000/561998, Video: 6628070854741724424.mp4, Next Video: 6635511948844731661.mp4
+[2020-01-06 06:42:35,629][INFO]: CNT: 370000/561998, Video: 6636521047728327950.mp4, Next Video: 6626469723884227854.mp4
+[2020-01-06 06:51:15,351][INFO]: CNT: 380000/561998, Video: 6635047566742392067.mp4, Next Video: 6636537108158745859.mp4
+[2020-01-06 07:00:27,848][INFO]: CNT: 390000/561998, Video: 6634425883677428996.mp4, Next Video: 6634086620532313348.mp4
+[2020-01-06 07:09:24,314][INFO]: CNT: 400000/561998, Video: 6634061085664087300.mp4, Next Video: 6635834610670374158.mp4
+[2020-01-06 07:28:55,640][INFO]: CNT: 410000/561998, Video: 6635419734512766215.mp4, Next Video: 6634065090792393988.mp4
+[2020-01-06 07:38:24,060][INFO]: CNT: 420000/561998, Video: 6634057751477619972.mp4, Next Video: 6635768183582100743.mp4
+[2020-01-06 07:47:15,555][INFO]: CNT: 430000/561998, Video: 6634475305878686990.mp4, Next Video: 6636986960197979405.mp4
+[2020-01-06 07:56:04,733][INFO]: CNT: 440000/561998, Video: 6704236300658035982.mp4, Next Video: 6704238969766333707.mp4
+[2020-01-06 08:04:50,685][INFO]: CNT: 450000/561998, Video: 6574683452669431043.mp4, Next Video: 6635179352411606279.mp4
+[2020-01-06 08:13:49,874][INFO]: CNT: 460000/561998, Video: 6635201758425517320.mp4, Next Video: 6634290546141564174.mp4
+[2020-01-06 08:22:49,077][INFO]: CNT: 470000/561998, Video: 6634515444239699204.mp4, Next Video: 6640258672549170436.mp4
+[2020-01-06 08:31:41,572][INFO]: CNT: 480000/561998, Video: 6636182808320544013.mp4, Next Video: 6633868799223270660.mp4
+[2020-01-06 08:39:57,101][INFO]: CNT: 490000/561998, Video: 6704155745551650055.mp4, Next Video: 6634030828076666120.mp4
+[2020-01-06 08:48:40,467][INFO]: CNT: 500000/561998, Video: 6636697731106606340.mp4, Next Video: 6704151925970980099.mp4
+[2020-01-06 08:57:44,040][INFO]: CNT: 510000/561998, Video: 6634748698020547854.mp4, Next Video: 6635023494423776525.mp4
+[2020-01-06 09:06:40,116][INFO]: CNT: 520000/561998, Video: 6634325634845773069.mp4, Next Video: 6634733811823283463.mp4
+[2020-01-06 09:15:18,268][INFO]: CNT: 530000/561998, Video: 6635052149451525383.mp4, Next Video: 6704149451226860813.mp4
+[2020-01-06 09:24:30,769][INFO]: CNT: 540000/561998, Video: 6637016544398281991.mp4, Next Video: 6704002907735428366.mp4
+[2020-01-06 09:33:30,281][INFO]: CNT: 550000/561998, Video: 6636294913392643341.mp4, Next Video: 6703946988691524868.mp4
+[2020-01-06 09:42:17,849][INFO]: CNT: 560000/561998, Video: 6636882200023272712.mp4, Next Video: 6704007189821918475.mp4

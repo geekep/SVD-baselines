@@ -1,0 +1,7 @@
+{approach: '', configfile: '', configpath: ./config,
+  dataname: svd, datapath: ./data/svd, debug: false, device: cuda,
+  en_local_log: true, featurepath: ./data/svd/features, fps: 1,
+  framepath: ./data/svd/frames, infopath: ./data/svd/infos, logdir: '',
+  metadatapath: ./data/svd/metadata, num_procs: 10, output_path: log,
+  output_period: 10000, path: ./, projpath: ./, seed: 0, timestamp: '', verbose: true,
+  videopath: ./data/svd/videos}

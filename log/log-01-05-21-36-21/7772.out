@@ -1,0 +1,60 @@
+Sender: LSF System <lsfadmin@user-g4a60>
+Subject: Job 7772: <JOBNAME> in cluster <platform> Done
+
+Job <JOBNAME> was submitted from host <master> by user <y182202028> in cluster <platform> at Sun Jan  5 21:36:07 2020
+Job was executed on host(s) <user-g4a60>, in queue <normal>, as user <y182202028> in cluster <platform> at Sun Jan  5 21:36:07 2020
+</home/y182202028> was used as the home directory.
+</home/y182202028/Public/SVD-baselines-master> was used as the working directory.
+Started at Sun Jan  5 21:36:07 2020
+Terminated at Mon Jan  6 09:44:57 2020
+Results reported at Mon Jan  6 09:44:57 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh                   
+
+#BSUB -q normal
+
+#BSUB -o %J.out
+
+#BSUB -e %J.err
+
+#BSUB -n 1 
+
+#BSUB -J JOBNAME
+
+#BSUB  -R span[ptile=1]   
+
+#BSUB -m "user-g4a60"         
+
+#BSUB  -gpu  num=8         
+
+python videoprocess/deepfeatures_extraction.py --dataname svd
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   102131.01 sec.
+    Max Memory :                                 9683 MB
+    Average Memory :                             6077.80 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              14
+    Max Threads :                                48
+    Run time :                                   43715 sec.
+    Turnaround time :                            43730 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <7772.err> for stderr output of this job.
+
